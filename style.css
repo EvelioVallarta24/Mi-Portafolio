@@ -1,0 +1,47 @@
+h1 {
+    color: white;
+    padding-left: 30px;
+}
+
+a:link {
+    color: rgb(170, 219, 247);
+}
+
+a:visited {
+    color: rgb(170, 219, 247);
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: rgb(150, 92, 207);
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #ffffff;
+}
